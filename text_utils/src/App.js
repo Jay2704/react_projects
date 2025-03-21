@@ -9,7 +9,9 @@ import Alert from './components/Alert';
 
 function App() {
 
+  
   const [alert, setAlert] = useState(null);
+
 
   const showAlert = (message, type) => {
     setAlert({
